@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+:root{ --size-icon-cabecera: 3em;}
+
+.header-icon{
+    height: var(--size-icon-cabecera);
+    width: var(--size-icon-cabecera);
+    margin: 0.5em;
+}
+
+header{
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: rgb(0,0,20);
+}
+
+body{
+    background-image: url('/pollock.jpg');
+    backdrop-filter: brightness(0.28);
+}
+
+.title-section{
+    font-size: 1.6em;
+    color: rgb(255,210,140);
+    margin: 0.6em 0 0.1em 0.4em;
+}
+
+#right-panel{
+    display: flex;
+    height: 8em;
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+}
+
+.recent-comment{
+    display: block;
+    color:whitesmoke;
+    flex-basis: auto;
+    flex-shrink: 0;
+    width: 18em;
+    height: 7em;
+    clear: both;
+    border:1px solid rgb(160,125,75);
+    border-radius: 5px;
+    margin: 0 0.2em 0.1em 0.2em;
+    padding: 0.1em;
+}
+.title{
+    color:rgb(222,222,222);
+    font-size: 1.3em;
+    
+    margin:0 0 0.3em 0.3em;
+}
+.subtitle{
+    color:rgb(222,222,222);
+    font-size:1em;
+    margin: 0 0 0 0.2em;
+}
+.section{
+    display: flex;
+    border: 1px solid rgb(160,125,75);
+    border-radius: 8px;
+    margin: 0.4em;
+    overflow: hidden;
+}
+.imagen{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
