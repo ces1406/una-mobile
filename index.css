@@ -6,7 +6,7 @@
     font-family: 'Nunito', sans-serif;
 }
 
-:root{ --size-icon-cabecera: 3em;}
+:root{ --size-icon-cabecera: 2.5em;}
 
 .header-icon{
     height: var(--size-icon-cabecera);
@@ -20,7 +20,7 @@ header{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background: rgb(0,0,20);
+    background: rgb(40,45,60);
 }
 
 body{
@@ -50,7 +50,7 @@ body{
     width: 18em;
     height: 7em;
     clear: both;
-    border:1px solid rgb(160,125,75);
+    border:2px solid rgb(165,115,50);
     border-radius: 5px;
     margin: 0 0.2em 0.1em 0.2em;
     padding: 0.1em;
